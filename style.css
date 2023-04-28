@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgb(218, 252, 163),rgb(216, 83, 163));
+}
+body img{
+    margin: 23px;
+    border-radius: 23px;
+    border: pink;
+    box-shadow: 12px 12px 5px 5px pink;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+body span img {
+    float: right;
+    margin:  23px 0px 0px 1230px;
+    border-radius: 23px;
+    border: pink;
+    box-shadow: 12px 12px 5px 5px pink;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+.main{display: flex;
+     padding: 0px 0px 0px 170px;
+     width: 70px;
+     height: 370px;
+     /* background-color: aquamarine; */
+}
+.main img{
+    margin:80px 0px 0px -145px;
+    width: 90px;
+    height: 90px;
+}
+.mainfornt{
+    border: 10px solid rgb(192, 79, 158);
+    display: inline-block;
+    position: absolute;
+    margin: 0px 0px 0px -355px ;
+    width: 250px;
+    height: 430px;
+    background:linear-gradient(rgb(235, 235, 119),rgb(217, 83, 106),rgb(228, 228, 115));
+    background-size: contain;
+	transform-style: preserve-3d;
+	transform-origin: 0% 50%;
+	transform: perspective(800px) rotateY(0deg);
+	transition: all 0.8s ease-in-out;
+
+}
+ .main:hover .mainfornt{
+    transform: rotateY(-175deg);
+}
+
+.mainfornt1{
+    border: 10px solid rgb(234, 113, 204);
+    display: inline-block;
+    position: absolute;
+    margin: 0px 0px 0px 200px;
+    width: 250px;
+    height: 430px;
+    background:linear-gradient(rgb(235, 235, 119),rgb(217, 83, 106),rgb(228, 228, 115));
+    background-size: contain;
+	transform-style: preserve-3d;
+	transform-origin: 0% 50%;
+	transform: perspective(800px) rotateY(181deg);
+	transition: all 0.8s ease-in-out;
+
+}
+.main:hover .mainfornt1{
+    transform: rotateY(0deg);
+}
+.main .mainfornt img{
+    border-radius: 23px;
+    box-shadow: 12px 12px 5px 5px rgb(234, 108, 209);
+    display: inline-block;
+    width:233px;
+    height: 240px;
+    margin: 100px 0px 0px 0px;
+
+}
+.main .mainfornt1 img{
+    border-radius: 23px;
+    box-shadow: -12px 17px 5px 5px rgb(236, 101, 212);
+    display: inline-block;
+    width:220px;
+    height: 230px;
+    margin: 100px 0px 0px 23px;
+
+}
+.main .btn{
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(rgb(236, 103, 125),rgb(220, 220, 120));
+    border: 3px solid rgb(222, 68, 94);
+    box-shadow: 6px 7px 5px 2px rgb(218, 73, 121);
+    border-radius: 30%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 400px;
+    left: 680px;
+}
+
+.main .btn:hover{
+    background-color: white;
+    color: rgb(80, 162, 244);
+}
+.main .btn a:hover{
+    color: rgb(195, 226, 90);
+}
+
+.main .btn a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(230, 64, 64);
+}
+@media only screen and (min-width:0px) and (max-width:500px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background:linear-gradient(rgb(218, 252, 163),rgb(216, 83, 163));
+    }
+    body img{
+        margin: 23px;
+        border-radius: 23px;
+        border: pink;
+        box-shadow: 12px 5px 5px 5px pink;
+        position: absolute;
+        width: 90px;
+        height: 90px;
+    }
+    body span img {
+        float: right;
+        margin:  23px 0px 0px 250px;
+        border-radius: 23px;
+        border: pink;
+        box-shadow: -12px 5px 5px 5px pink;
+        position: absolute;
+        width: 90px;
+        height: 90px;
+    }
+    .main{
+        padding: 0px 0px 0px 170px;
+        width: 164px;
+        height: 300px;
+         
+    }
+    .main img{
+        display: none;
+        margin:280px 0px 0px -180px;
+        width: 35px;
+        height: 35px;
+    }
+    .mainfornt{
+        border: 10px solid rgb(192, 79, 158);
+        display: inline-block;
+        position: absolute;
+        margin: 80px 0px 0px -15px;
+        width: 100px;
+        height: 160px;
+        background: linear-gradient(rgb(235, 235, 119),rgb(231, 101, 123),rgb(228, 228, 115));
+        background-size: contain;
+	 transform-style: preserve-3d;
+	transform-origin: 0% 50%;
+	transform: perspective(800px) rotateY(0deg);
+	transition: all 0.8s ease-in-out;
+
+    }
+    .mainfornt1{
+        border: 10px solid rgb(192, 79, 158);
+        display: inline-block;
+        position: absolute;
+        margin: 80px 0px 0px 0px;
+        width: 100px;
+        height: 160px;
+        background: linear-gradient(rgb(235, 235, 119),rgb(227, 98, 119),rgb(228, 228, 115));
+        background-size: contain;
+	transform-style: preserve-3d;
+	transform-origin: 0% 50%;
+	transform: perspective(800px) rotateY(181deg);
+	transition: all 0.8s ease-in-out;
+    }
+    .main:hover .mainfornt{
+        transform: rotateY(-175deg);
+    }
+    .main:hover .mainfornt1{
+        transform: rotateY(0deg);
+    }
+    
+    .main .mainfornt img{
+        border-radius: 23px;
+        box-shadow: 7px 5px 5px 5px rgb(228 148 212);
+        display: inline-block;
+        width: 80px;
+        height: 90px;
+        margin: 30px 0px 0px 4px;
+    
+    }
+    .main .mainfornt1 img{
+        border-radius: 23px;
+        box-shadow: 7px 5px 5px 5px rgb(228 148 212);
+        display: inline-block;
+        width: 80px;
+        height: 90px;
+        margin: 30px 0px 0px 4px;
+    
+    }
+    .main .btn{
+        color: white;
+        cursor: pointer;
+        background: linear-gradient(rgb(236, 103, 125),rgb(220, 220, 120));
+        border: 3px solid rgb(222, 68, 94);
+        box-shadow: 6px 7px 5px 2px rgb(218, 73, 121);
+        border-radius: 30%;
+        width: 120px;
+        height: 40px;
+        position: absolute;
+        top:520px;
+        left: 133px;
+    }
+    .main .btn a{
+        font-size: 11px;
+        text-decoration: none;
+        color: rgb(230, 64, 64);
+    }
+    
+}
+
